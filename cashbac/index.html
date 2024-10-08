@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tentang Cashbac</title>
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/menikah.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  </head>
+                    <!-- 1. Define some markup -->
+                   
+                    <div class="field has-addons">
+                      <input class="voucher-code is-expanded" id="foo" type="text" value="Bandung">
+                      <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo">
+                        <i class="far fa-copy"></i>
+                        Copy
+                      </button>
+                    </div>
+                  
+                </div>
+                <div class="column is-6">
+                  Referral Code Daeng
+                  <div class="field has-addons">  
+                    <input class="voucher-code is-expanded" id="foo1" type="text" value="dae10al">
+                    <button class="btn-voucher-code is-expanded" data-clipboard-action="copy" data-clipboard-target="#foo1">
+                      <i class="far fa-copy"></i>
+                      Copy
+                    </button>
+                  </div>
+                  <!-- 2. Include library -->
+                  <script src="../js/clipboard.min.js"></script>
+    
+                  <!-- 3. Instantiate clipboard -->
+                  <script>
+                  var clipboard = new ClipboardJS('.btn-voucher-code');
+    
+                  clipboard.on('success', function(e) {
+                      console.log(e);
+                  });
+    
+                  clipboard.on('error', function(e) {
+                      console.log(e);
+                  });
+                  </script> 
+                </div>
+              </div>
+        </div>
+        </div>
+    </div>
+    <!-- End PESAN SPONSOR-->
+
+
+</body>
+</html>

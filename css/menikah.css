@@ -468,15 +468,14 @@ body.preloader-site {
 
 .btn-whatsapp:hover {
   color: white;
-  background-color: #4d4d4d;
-  font-size: 3rem;
+  background-color: #242424;
+  font-size: 2.5rem;
   border-radius: 30px;
-  border: 2px solid #2a2a2a;
-  width:  600px;
+  border: 2px solid #242424;
+  width:  500px;
   height: 80px;
   align-items: center;
 }
-
 
 .btn-whatsapp {
   background-color: #000000;

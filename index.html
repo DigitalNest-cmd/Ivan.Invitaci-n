@@ -15,27 +15,19 @@
     <script src="js/jquery.coundown.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23064379-20"></script>
-    <!-- Begin Script for Countdown -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-23064379-20');
     </script>
-    <!-- Begin Script for Countdown -->
-
-    <!-- Github Button -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <body>
     <div class="header-wrapper" id="home">
-      <!-- Begin Hero -->
       <section class="hero is-large">
-        <!-- Begin Mobile Nav -->
         <nav class="navbar is-transparent is-hidden-desktop">
-          <!-- Begin Burger Menu -->
           <div class="navbar-brand is-fixed-top">
             <div class="navbar-burger burger" data-target="mobile-nav">
               <span></span>
@@ -43,253 +35,134 @@
               <span></span>
             </div>
           </div>
-          <!-- End Burger Menu -->
           <div id="mobile-nav" class="navbar-menu">
             <div class="navbar-end">
               <div class="navbar-item">
-                <a class="navbar-item" href="#Waktu">
-                  Waktu
-                </a>
+                <a class="navbar-item" href="#Waktu">Waktu</a>
               </div>
               <div class="navbar-item">
-                <a class="navbar-item" href="#lokasi">
-                  Lokasi
-                </a>
-              </div>
-              
-              <div class="navbar-item">
-                <a class="navbar-item" href="#tentang-sherly-daeng">
-                  Tentang Sherly dan Daeng
-                </a>
+                <a class="navbar-item" href="#lokasi">Ubicación</a>
               </div>
               <div class="navbar-item">
-                <a class="navbar-item" href="#rsvp">
-                  RSVP
-                </a>
+                <a class="navbar-item" href="#tentang-sherly-daeng">Tentang Sherly dan Daeng</a>
+              </div>
+              <div class="navbar-item">
+                <a class="navbar-item" href="#rsvp">RSVP</a>
               </div>
             </div>
           </div>
         </nav>
-        <!-- End Mobile Nav -->
-        <!-- Begin Hero Content-->
+
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="subtitle">FELICES DIESCISEIS</h1>
+            <h1 class="subtitle">FELICES DIECISÉIS</h1>
             <h2 class="title">Iván Aleixein Melendez Nuñez</h2>
             <h4 class="subtitle tempatwaktu">
-              
-                Iván y su familia te invitan a celebrar sus Diesciseis años 
-                </br>
-                Este Martes 18 de febrero del 2025 
-                <br>
-                <br>
-                <p class="title">Faltan:</p>
-              
+              Iván y su familia te invitan a celebrar sus Dieciséis años
+              <br>Este Martes 18 de febrero del 2025
+              <br><br>
+              <p class="title">Faltan:</p>
             </h4>
           </div>
-          <!-- Start Countdown -->       
+
           <div>
-            <ul id="hitungmundur" >
-              <li><span class="days">00</span><p class="days_text">Dias</p></li>
+            <ul id="hitungmundur">
+              <li><span class="days">00</span><p class="days_text">Días</p></li>
               <li class="separator">:</li>
               <li><span class="hours">00</span><p class="hours_text">Horas</p></li>
               <li class="separator">:</li>
               <li><span class="minutes">00</span><p class="minutes_text">Minutos</p></li>
               <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">segundos</p></li>
+              <li><span class="seconds">00</span><p class="seconds_text">Segundos</p></li>
             </ul>
-            <div class="spasi">
-            </div>
+            <div class="spasi"></div>
             <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
               var harih = '02/18/2025 17:00:00';
-
               $('#hitungmundur').countdown({
-                date: harih, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Dias',
-                days: 'Dias'
+                date: harih,
+                offset: +7,
+                day: 'Días',
+                days: 'Días'
               }, function () {
-                alert('Feliz Cumpleaños iván');
+                alert('Feliz Cumpleaños Iván');
               });
             </script>  
           </div>
-          <!-- End Countdown -->
         </div>
-        <!-- End Hero Content-->
-        <!-- Begin Hero Menu -->
-        <div class="hero-foot ">
+
+        <div class="hero-foot">
           <div class="hero-foot--wrapper">
             <div class="columns">
               <div class="column is-12 hero-menu-desktop has-text-centered">
                 <ul>
-                  <li class="is-active">
-                    <a href="#home">BIENVENIDA</a>
-                  </li>
-                  <li>
-                    <a href="#Waktu">HORARIO</a>
-                  </li>
-                  <li>
-                    <a href="#lokasi">UBICACIÓN</a>
-                  </li>
-
-                  <li>
-                    <a href="#rsvp">ASISTENCIA</a>
-                  </li>
+                  <li class="is-active"><a href="#home">Bienvenida</a></li>
+                  <li><a href="#Waktu">Horario</a></li>
+                  <li><a href="#lokasi">Ubicación</a></li>
+                  <li><a href="#rsvp">Asistencia</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <!-- End Hero Menu -->
       </section>
-      <!-- End Hero -->
     </div>
-    <!-- End Header -->
 
-    <!-- Begin Main Content -->
     <div class="main-content">
-    <!-- Begin regular-section-->
-     <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
-
+      <section class="section-light no-padding-top regular-section has-text-centered has-vertically-aligned-content" id="regular-section">
         <p class="TR" data-aos="fade-up" data-aos-easing="linear">
-          Nos encantaría que nos acompañaras en este día tan especial. 
-          <br />
-          Tu presencia hará de este evento un momento aún más memorable.
-          <br />
-          Acompañaremos a celebrar a <B>[NOMBRE]</B> juntos y crear recuerdos inolvidables.
+          Nos encantaría que nos acompañaras en este día tan especial. <br>
+          Tu presencia hará de este evento un momento aún más memorable.<br>
+          Acompañaremos a celebrar a <b>[NOMBRE]</b> juntos y crear recuerdos inolvidables.
         </p>
-
-        <div data-aos="fade-up" data-aos-easing="linear">
-          <div class="nama-lengkap" 
-          </div>
-           
-        </div>
-
       </section>
-      <!-- End regular-section-->    
-      
-      <!-- Begin Waktu Section -->
+
       <section class="section-dark" id="Waktu">
         <div class="container">
-
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">HORARIO</h1>
+            <h1 class="title has-text-centered section-title">Horario</h1>
           </div>
           <div class="columns is-multiline" data-aos="fade-up" data-aos-easing="linear">
-            <div
-              class="column is-4 has-vertically-aligned-content">
-            
+            <div class="column is-4 has-vertically-aligned-content">
               <p class="is-larger has-text-centered">
-                  <div class="waktu tanggal-hari has-text-centered">Martes</div> 
-                  <div class="waktu tanggal-angka has-text-centered">18</div>
-                  <div class="waktu tanggal-bulan has-text-centered">De febrero 2025</div>
+                <div class="waktu tanggal-hari has-text-centered">Martes</div> 
+                <div class="waktu tanggal-angka has-text-centered">18</div>
+                <div class="waktu tanggal-bulan has-text-centered">De febrero 2025</div>
               </p>
-            
             </div>
             <div class="column is-4 has-vertically-aligned-content">
-            
               <p class="waktu is-larger has-text-centered">
-                Entrada:
-                <br>
-                <strong>15.00 PM</strong>
+                Entrada:<br><strong>15.00 PM</strong>
               </p>
-            
             </div>
-
             <div class="column is-4 has-vertically-aligned-content">
-              
               <h1 class="waktu is-larger has-text-centered">
-                Horario:
-                <br>
-                <strong>15.00 PM  - 21.00 PM</strong>
+                Horario:<br><strong>15.00 PM - 21.00 PM</strong>
               </h1>
-              
-              
             </div>
-
           </div>
         </div>
         <div class="main-content has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-          <a href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&amp;tmsrc=daengdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar" target="_blank" data-aos="zoom-in">
-            <i class="far fa-calendar-plus"></i>
-            &nbsp;&nbsp;AGENDAR FECHA
+          <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGgzdW00NG84dXFwMzcwNXYxbGliNGxzaWggZGFlbmdkb2FuZ0Bt&tmsrc=daengdoang%40gmail.com" target="_blank" class="button has-tooltip btn-cta" data-tooltip="Add to Calendar">
+            <i class="far fa-calendar-plus"></i>&nbsp;&nbsp;Agendar Fecha
           </a>
         </div>
       </section>
-      <!-- End Waktu Content -->
 
-      <!-- Begin Lokasi Section -->
-      <section class="section-darker" id="lokasi" >
+      <section class="section-darker" id="lokasi">
         <div class="container">
           <div class="column is-12 regular-section" data-aos="fade-up" data-aos-easing="linear">
-            <h1 class="title has-text-centered section-title">UBICACIÓN</h1>
+            <h1 class="title has-text-centered section-title">Ubicación</h1>
             <p class="tempat is-larger has-text-centered">
-              <strong>José A. Torres 102,</strong>
-              <br>
-              Enrique Flores Magón
-              <br>
-              34136 Durango, Dgo
-              <br>
+              <strong>José A. Torres 102,</strong><br>
+              Enrique Flores Magón<br>
+              34136 Durango, Dgo<br>
             </p>
           </div>
           <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-            <iframe src="hhttps://www.google.com/maps/place/Jos%C3%A9+A.+Torres+102,+Enrique+Flores+Mag%C3%B3n,+34136+Durango,+Dgo./@24.0071659,-104.6780451,17z/data=!3m1!4b1!4m6!3m5!1s0x869bc80c6bcd4a3f:0x6289c291f352cf3d!8m2!3d24.0071659!4d-104.6780451!16s%2Fg%2F11c2b15d8c?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3"></iframe>
-        </div>
-        <div class="space40px"></div>
-        <div class="has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-            </a>
+            <iframe src="https://www.google.com/maps/place/Jos%C3%A9+A.+Torres+102,+Enrique+Flores+Mag%C3%B3n,+34136+Durango,+Dgo./@24.0071659,-104.6780451,17z/data=!3m1!4b1!4m6!3m5!1s0x869bc80c6bcd4a3f:0x6289c291f352cf3d!8m2!3d24.0071659!4d-104.6780451!16s%2Fg%2F11c2b15d8c?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </section>
-      <!-- End Lokasi Content -->
-
-
-      <!-- Begin RSVP Content -->
-      <section class="section-dark contact" id="rsvp">
-        <div class="container">
-          <div class="columns is-multiline">          
-            <div class="column is-12 prolog">
-              <h1 class="title has-text-centered section-title" data-aos="fade-up" data-aos-easing="linear">CONFIRMACIÓN</h1>
-            </div>
-            <div class="column is-12 prolog has-text-centered" data-aos="fade-up" data-aos-easing="linear">
-              <p class="h2 subtitle">
-                Este día especial no sería lo mismo sin ti
-                <br>
-                 Quiero compartir este momento inolvidable con las personas que más quiero
-                 <br>
-                 ¡Estás cordialmente invitado a celebrar mis dieciséis años!
-                </p>
-     
-                <a href="https://api.whatsapp.com/send?phone=6183237826&text=Hola,%20Iván,%20quiero%20asistir%20a%20tu%20fiesta,%20mi%20nombre%20es:" class="button btn-whatsapp" target="_blank" data-aos="zoom-in">
-                  <i class="fab fa-whatsapp"></i>
-                &nbsp;&nbsp;ASISTENCIA
-              </a>
-              
-              </a >
-                </a>
-              </p>
-
-            </div>
- 
-         </div>
-        </div>
-      </section>
-      <!-- End RSVP Content -->
     </div>
-    <!-- End Main Content -->
-
-
-    <script>
-      AOS.init({
-        easing: "ease-out",
-        duration: 800,
-      });
-    </script>
   </body>
-</html>  
+</html>
